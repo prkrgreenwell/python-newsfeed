@@ -1,0 +1,1 @@
+web: gunicorn -2 4 "app:create_app()" -t 120
